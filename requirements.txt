@@ -1,4 +1,7 @@
-swanlab
+ipywidgets
+ipykernel
+
+wandb
 modelscope==1.22.0
 transformers
 datasets==3.2.0
