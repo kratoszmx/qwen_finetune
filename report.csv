@@ -1,0 +1,6 @@
+model, raw, finetuned
+QWEN3-0.6B, 12/25(0.48), 10/25(0.4)
+QWEN3-1.7B, 15/25(0.6), 14/25(0.56)
+QWEN3-4B, 19/25(0.76), 16/25(0.64)
+QWEN3-8B, 18/25, requires more vram
+GPT-oss-20B, OOM, requires >80GB

@@ -28,7 +28,7 @@ def predict(messages, model, tokenizer):
 
     generated_ids = model.generate(
         model_inputs.input_ids,
-        max_new_tokens=2048,
+        max_new_tokens=4096,
     )
     generated_ids = [
         output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)

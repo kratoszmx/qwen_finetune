@@ -1,1 +1,5 @@
 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+
+之后的方向：
+1. 优化想到的目前可以优化的点：原始数据优化，超参优化
+2. 继续尝试更大模型的微调（需要更多显存）
