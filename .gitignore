@@ -1,3 +1,4 @@
 output/
-train.jsonl
-val.jsonl
+train_format.jsonl
+val_format.jsonl
+wandb/
